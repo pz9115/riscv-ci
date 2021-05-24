@@ -12,7 +12,7 @@ git checkout k/riscv-binutils-2.36-k-ext
 cd ..
 
 # test:
-./configure --prefix="$PWD/rv64gck_zks" --with-arch=rv64gck_zks --with-abi=lp64d --with-multilib-generator="rv64gck_zks-lp64d--"
+./configure --prefix="$PWD/rv64gck_zks" --with-arch=rv64gck_zks --with-abi=lp64d --with-multilib-generator="rv32gck_zks-lp64d--"
 
 # you can use make -j* to make speed up
 # Remove GCC test due to b-ext is not support completely, we will restart it after B-ext GCC part finish by Sifive
